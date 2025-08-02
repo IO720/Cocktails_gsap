@@ -6,6 +6,7 @@ import { ScrollSmoother } from "gsap/ScrollSmoother";
 import { SplitText } from "gsap/SplitText";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import Cocktails from "./components/Cocktails";
 
 gsap.registerPlugin(useGSAP, ScrollTrigger, ScrollSmoother, SplitText);
 
@@ -14,6 +15,7 @@ const App = () => {
     <main>
       <Navbar />
       <Hero />
+      <Cocktails/>
     </main>
   );
 };
